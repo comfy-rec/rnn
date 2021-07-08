@@ -1,10 +1,15 @@
 # rnn
 
+## requirements
+
 google colab
+
 pytorch
+
 torchvision
 
-dataset
+## datasets
+
 mnist
 
 형태소 분석
