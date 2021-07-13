@@ -1,5 +1,8 @@
 # rnn(recurrent neural network)
-ex.py36.ipynb  
+ex.py36.ipynb
+pytorch tutorial
+mnist data load
+
 py36.형태소분석+품사태깅.ipynb  
 py36.RNN.mnist.ipynb  
 0. Data 전처리.sms.p36.ipynb  
