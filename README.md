@@ -1,5 +1,6 @@
 # rnn(recurrent neural network)
 
+# 자연어 처리 소개 introduction to natural lagnuage process(nlp)
 ## 자연어 처리란?
 자연어(natural language) : 사람들의 사회생활에서 자연스럽게 발생하여 쓰이는 언어  
     컴퓨터에게 명령을 하기 위해 정제한 단어들과 반대되는 의미로 쓰임
@@ -263,6 +264,53 @@ parallel corpus : 대응되는 문장 쌍이 labeling 되어 있는 형태
 연구의 목적에 맞게 모델이 어떤 부분을 읽고, 어떤 형식으로 출력하는 지 결정  
 감정분석인 경우 분류(classification) 모델, 번역인 경우 생성(generation) 모델 등  
 성능이 매우 좋은 모델은 출력 부분에 변화를 주어 다른 작업에 사용되기도 함 (transfer learning)
+
+## 딥러닝을 사용하는 다른 연구 분야와 자연어 처리 비교
+### AI 를 활용한 주요 분야
+computer vision  
+image recognition  
+object detection  
+image generation  
+super resolution
+
+natural language processing(nlp)  
+text classification  
+machine translation  
+summarization  
+question & answering
+
+speech processing  
+speech recognition (stt)  
+speech synthesis (tts)  
+speaker identification
+
+reinforcement learning
+
+data science
+
+### 자연어 처리 vs 이외 분야
+자연어 처리  
+이산적인 값을 다룸 : 단어, 문장  
+분류 문제로 접근 가능  
+샘플의 확률 값을 구할 수 있음 : P(x=단어)  
+문장 생성(자연어 생성) : auto-regressive 속성 지님, gan 적용 불가
+
+다른 분야(예 : 컴퓨터 비전)  
+연속적인 값을 다룸 : 영상, 음성  
+문제에 다라 접근 방식이 다름  
+샘플의 확률 값을 구할 수 없음 : P(x=영상)  
+영상 생성 : auto-regressive 속성 없음, gan 적용 가능
+
+### 자연어 처리의 필수 요건
+언어적 지식 필요 (domain knowledge)  
+예) 한국어의 언어적 특성은 무엇인가?
+
+어려운 전처리 과정  
+문제에 따른 정제 과정 필요
+
+
+
+
 
 
 
